@@ -1,0 +1,53 @@
+.container {
+//   border: 1px solid yellow;
+  margin-left: 80px;
+  margin-right: 40px;
+  margin-top: 40px;
+  padding: 5px;
+  //   -------------------------------GRID
+  display: grid;
+  //   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 5px;
+}
+.item {
+  font-size: 2rem;
+  height: 200px;
+}
+
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item-2 {
+}
+
+.item-3 {
+  background-color: aquamarine;
+}
+
+.item-4 {
+  background-color: bisque;
+}
+
+.item-5 {
+  background-color: blue;
+}
+
+.item-6 {
+  background-color: purple;
+}
+
+.item-7 {
+  background-color: peru;
+}
+
+.item-8 {
+  background-color: red;
+}
+
+.item-9 {
+  background-color: yellow;
+}

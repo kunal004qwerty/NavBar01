@@ -1,0 +1,26 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./Assets/4772731.jpg);
+  background-size: cover;
+  background-position: center;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style: none;
+}
